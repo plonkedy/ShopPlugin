@@ -1,0 +1,17 @@
+name: ShopPlugin
+version: 1.0.0
+main: com.example.shopplugin.ShopPlugin
+api-version: 1.19
+description: A simple GUI shop plugin
+author: YourName
+
+commands:
+  shop:
+    description: Opens the shop GUI
+    usage: /shop
+    permission: shopplugin.use
+
+permissions:
+  shopplugin.use:
+    description: Allows the player to use /shop
+    default: true
